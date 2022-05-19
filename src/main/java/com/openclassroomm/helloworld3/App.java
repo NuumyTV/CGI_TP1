@@ -59,7 +59,6 @@ public class App
 			boolean hasManager = developpeur.getManager() instanceof Manager;
 		    if (skills && hasManager) {
 		    	String dateNaissance = new SimpleDateFormat("dd/MM/yyyy").format(developpeur.getDateDeNaissance());
-				    	// affichage
 		    	System.out.println(developpeur.getNom()+" "+developpeur.getPrenom()+" "+dateNaissance);
 			}
 		}
